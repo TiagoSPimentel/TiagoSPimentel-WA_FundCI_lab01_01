@@ -1,6 +1,7 @@
 name: Hello Flow
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
 
 jobs:
   first-job:
@@ -10,4 +11,5 @@ jobs:
         run: echo "Hello World!"
       - name: Diga valeu
         run: echo "Valeu - bye!"
+
 
