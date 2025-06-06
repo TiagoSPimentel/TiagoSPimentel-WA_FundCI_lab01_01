@@ -1,8 +1,0 @@
-name: Simple Local
-on: push
-jobs:
-  firts-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Diva oi
-        run: echo "Hello World!"
